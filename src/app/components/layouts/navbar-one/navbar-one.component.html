@@ -38,7 +38,7 @@
                                 >Home</a
                             >
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a
                                 href="https://drive.google.com/file/d/1JxMChfjPs7aEkI2nUR6GRzurhZfAqyB5/view?usp=sharing"
                                 class="nav-link"
@@ -47,8 +47,19 @@
                                 [routerLinkActiveOptions]="{ exact: true }"
                                 >Guide Book</a
                             >
-                        </li>
+                        </li> -->
                         <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link">Download <i class="fa fa-angle-down"></i></a>
+
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="assets/pdf/final.pdf" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Final Result</a></li>
+
+                                <li class="nav-item"><a href="assets/pdf/Press-Release-I3O.docx" class="nav-link" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Press Release</a></li>
+
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1njVnjGiaZ-gmcdiP8k30Eq6qPScf5qIE?usp=sharing" class="nav-link" target="_blank" routerLinkActive="active"[routerLinkActiveOptions]="{exact: true}">Certificate Supervisor</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
                             <a
                                 href="assets/pdf/final.pdf"
                                 class="nav-link"
@@ -58,6 +69,26 @@
                                 >Final Result</a
                             >
                         </li>
+                        <li class="nav-item">
+                            <a
+                                href="assets/pdf/Press-Release-I3O.docx"
+                                class="nav-link"
+                                target="_blank"
+                                routerLinkActive="active"
+                                [routerLinkActiveOptions]="{ exact: true }"
+                                >Press Release</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="https://drive.google.com/drive/folders/1njVnjGiaZ-gmcdiP8k30Eq6qPScf5qIE?usp=sharing"
+                                class="nav-link"
+                                target="_blank"
+                                routerLinkActive="active"
+                                [routerLinkActiveOptions]="{ exact: true }"
+                                >Certificate Supervisor</a
+                            >
+                        </li> -->
 
                         <!-- <li class="nav-item">
                             <a href="javascript:void(0)" class="nav-link">Home <i class="fa fa-angle-down"></i></a>
